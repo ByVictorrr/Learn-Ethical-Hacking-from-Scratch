@@ -248,9 +248,30 @@ crunch [min] [max] [chars] -t [pattern] -o [filename]
 	* Try default password
 	* some services might contain a backdooor
 	* code exec vulneralbilties: buffer overflow
-	*
+
+## Metasploit
+* its an sploit development and exec tool it can be used to carry out other pen testing tasks as port scans, service id's and post exploitation tasks
+* `msfconsole`
+* `show [something] `: something can be exploits payloads auxilaries or options
+* `use [comething]`
+* `set [option] [value]` : config option to have a value
+* `exploit` - runs current tasks
 
 
+
+# Gaining access - client side attacks
+* Use `Veil`
+* It can product non detected viruses
+* To test if your virus is detectable use [website](https://nodistribute.com/)
+* use `evasion`
+* show : show payloads
+* options: show options or params
+* set [options] [value]
+* generate: generate a backdoor virus
+
+* use msfconsole to listen to backdoor
+* set PAYLOAD to same as veils'
+* set other options
 
 
 
